@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>PLAY</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-v1-Dark" transform="translate(-406.000000, -697.000000)">
+            <g id="HERO" transform="translate(404.000000, 22.000000)">
+                <g id="CONTENT" transform="translate(0.000000, 342.000000)">
+                    <g id="VIDEO" transform="translate(3.000000, 334.000000)">
+                        <g id="PLAY">
+                            <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="17.5" cy="17.5" r="17.5"></circle>
+                            <g id="triangle-right-17" transform="translate(14.000000, 10.000000)" fill="#FFFFFF">
+                                <path d="M0.4975,0.0627766199 C0.4025,-0.00928936061 0.2765625,-0.0203764345 0.17125,0.0350589351 C0.06625,0.0904943046 0,0.202995496 0,0.32593158 L0,14.6739096 C0,14.7968457 0.06625,14.9093469 0.17125,14.9647822 C0.215625,14.9882607 0.264375,15 0.3125,15 C0.3778125,15 0.4428125,14.9788041 0.4975,14.9370646 L9.8725,7.76307555 C9.9528125,7.70144446 10,7.60361734 10,7.49992059 C10,7.39622384 9.9528125,7.29839671 9.8725,7.23676563 L0.4975,0.0627766199 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

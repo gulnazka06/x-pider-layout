@@ -1,0 +1,49 @@
+header {
+  position: relative;
+}
+
+header .bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 42vw;
+}
+
+header .content {
+    display: flex;
+    position: relative;
+}
+
+header .content div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+header a {
+    font-size: 16px;
+    color: var(--nav-link-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a img {
+    height: 35px;
+    width: 35px;
+    margin-right: 13px;
+}
+
+header .content div, header .content .header-photo {
+    width: 50%;
+}
+
+.header-photo img {
+    max-width: 519px;
+    width: 100%;
+}
+
+header button {
+    margin: 32px 0;
+}
