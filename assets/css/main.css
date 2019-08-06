@@ -3,6 +3,8 @@
     --nav-link-color: #E7EAEE;
     --button-primary-color: #2F5BEA;
     --white-color: #FFF;
+    --grey-color: #7E8085;
+    --decription-hr-color: #151C32;
 }
 
 body {
@@ -57,7 +59,7 @@ button.primary {
 h2 {
     font-size: 34px;
     color: var(--white-color);
-    line-height: 58px;
+    line-height: 39px;
     margin: 0 0 20px;
 }
 
@@ -65,5 +67,11 @@ h3 {
     font-size: 21px;
     color: var(--white-color);
     line-height: 34px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 28px;
     margin: 0;
 }

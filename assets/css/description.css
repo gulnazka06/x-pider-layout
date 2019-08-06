@@ -1,0 +1,74 @@
+.description .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description .container.row {
+    flex-direction: row;
+}
+
+.description .container h4 {
+    color: var(--grey-color);
+    text-align: center;
+}
+
+.description .container .tabs img {
+    width: 42px;
+    height: 42px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.description .tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+}
+
+.description .container a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description .container.row img, .description .content {
+    color: var(--grey-color);
+    width: 50%;
+}
+
+.description .container.row img {
+    padding-right: 50px;
+}
+
+.description .content {
+    padding-left: 50px;
+}
+
+.description ul {
+    list-style: disc;
+}
+
+.description ul li {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 28px;
+    font-style: italic;
+}
+
+.description p:last-child {
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--white-color);
+    font-style: normal;
+}
+
+hr {
+    border-color: var(--decription-hr-color);
+}
