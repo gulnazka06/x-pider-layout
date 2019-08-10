@@ -5,6 +5,8 @@
     --white-color: #FFF;
     --grey-color: #7E8085;
     --decription-hr-color: #151C32;
+    --section-bg-color: #151C32;
+    --section-hr-color: #1E2745;
 }
 
 body {
@@ -74,4 +76,10 @@ h4 {
     font-size: 16px;
     line-height: 28px;
     margin: 0;
+}
+
+p {
+    color: var(--grey-color);
+    font-size: 16px;
+    line-height: 28px;
 }
