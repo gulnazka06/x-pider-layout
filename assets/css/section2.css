@@ -1,0 +1,48 @@
+.unique-blocks .container {
+    display: flex;
+}
+
+.unique-blocks p {
+    padding: 40px 0 52px;
+    margin-right: 133px;
+    text-align: start;
+}
+
+.unique-blocks h2 {
+    margin-top: 217px;
+}
+
+.unique-blocks img {
+    margin: 170px 0;
+}
+
+.unique-blocks a {
+    color: var(--button-primary-color);
+}
+
+.testimonial .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial h2, p {
+    text-align: center;
+}
+
+.testimonial p {
+    margin: 0 0 52px;
+}
+
+.testimonial a {
+    display: flex;
+    justify-content: center;
+    margin: 37px 0 114px;
+    color: var(--button-primary-color);
+}
+
+.testimonial .brands {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 83px 133px;
+}
+

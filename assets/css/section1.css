@@ -1,33 +1,33 @@
-.section {
+.how-works {
     background-color: var(--section-bg-color);
 }
 
-.section .container {
+.how-works .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.section .container h2 {
+.how-works .container h2 {
     margin-top: 152px;
 }
-.section .levels {
+.how-works .levels {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.section .levels div {
+.how-works .levels div {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.section img {
+.how-works img {
     margin: 67px 0 27px 0;
 }
 
-.section p {
+.how-works p {
     text-align: center;
 }
 
@@ -35,26 +35,30 @@ hr {
     border-color: var(--section-hr-color);
 }
 
-.section .built {
+.how-works .built {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.section .built img {
+.how-works .built img {
     margin: 0;
     padding-right: 125px;
 }
 
-.section .built p {
+.how-works .built p {
     text-align: start;
 }
 
-.section .built .technologies {
+.how-works .built a {
+    color: var(--button-primary-color);
+}
+
+.how-works .built .technologies {
     display: flex;
 }
 
-.section .built .technologies img {
+.how-works .built .technologies img {
     width: 40px;
     padding-right: 15px;
 }
