@@ -34,7 +34,7 @@
     flex-direction: column;
 }
 
-.description .container.row img, .description .content {
+.description .img, .description .content {
     color: var(--grey-color);
     width: 50%;
 }
@@ -69,6 +69,33 @@
     font-style: normal;
 }
 
-hr {
+.description .content hr {
     border-color: var(--decription-hr-color);
+    width: 100%;
+}
+
+.description .img {
+    position: relative;
+}
+
+.description .dots {
+    position: absolute;
+    width: 158px;
+    height: 153px;
+    top: -36px;
+    left: -76px;
+}
+
+.description .triangle {
+    bottom: 0;
+    width: 37px;
+    height: 33px;
+    right: 55px;
+    position: absolute;
+    transform: translateY(-40%);
+}
+
+.description .main {
+    width: 100%;
+    position: relative;
 }

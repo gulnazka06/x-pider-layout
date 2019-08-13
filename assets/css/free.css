@@ -1,0 +1,26 @@
+.free {
+    background-color: var(--button-primary-color);
+}
+
+.free .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.free h2 {
+    margin-top: 112px;
+}
+
+.free p {
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.free button {
+    margin: 27px 0 215px;
+    padding: 18px 37px;
+}
+
+
