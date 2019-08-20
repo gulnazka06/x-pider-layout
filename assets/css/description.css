@@ -92,3 +92,27 @@
         padding-right: 5px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .description h2 {
+        text-align: center;
+    }
+
+    .description .container.row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description .img, .description .content {
+        width: 100%;
+    }
+
+    .description .content{
+        padding-left: 20px;
+    }
+
+    .description .img {
+        margin-bottom: 16px;
+    }
+
+}

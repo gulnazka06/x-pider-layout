@@ -129,3 +129,28 @@
 
 }
 
+@media screen and (max-width: 767px) {
+    .unique-blocks h2 {
+        margin-top: 48px;
+        text-align: center;
+    }
+
+    .unique-blocks p {
+        text-align: center;
+        margin: 0;
+    }
+
+    .unique-blocks img {
+        width: 100%;
+    }
+
+    .testimonial .reviews .row {
+        flex-direction: column;
+    }
+
+    .testimonial .review {
+        width: 100%;
+        margin: 0 0 16px;
+    }
+}
+

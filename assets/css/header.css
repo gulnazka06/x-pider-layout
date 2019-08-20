@@ -48,3 +48,17 @@ header .content div, header .content .header-photo {
 header button {
     margin: 32px 0;
 }
+
+@media screen and (max-width: 767px) {
+    .content button {
+        width: 100%;
+    }
+
+    header .content {
+        flex-direction: column;
+    }
+
+    header .content div, header .content .header-photo {
+        width: 100%;
+    }
+}

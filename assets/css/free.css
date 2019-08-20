@@ -24,4 +24,15 @@
     padding: 18px 37px;
 }
 
+@media screen and (max-width: 767px) {
+    .free h2 {
+        margin-top: 48px;
+        text-align: center;
+    }
+
+    .free button {
+        margin-bottom: 48px;
+    }
+}
+
 
