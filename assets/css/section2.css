@@ -100,7 +100,32 @@
 
 .testimonial .brands {
     display: flex;
-    justify-content: space-between;
-    margin: 0 83px 133px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 0 109px;
+}
+
+.testimonial .brands li {
+    padding: 0 8px 24px;
+}
+
+@media screen and (max-width: 991px) {
+    .unique-blocks .container {
+        flex-direction: column;
+        padding: 0 16px;
+    }
+
+    .unique-blocks img {
+        margin: 48px auto;
+        display: block;
+    }
+
+    .testimonial .container {
+        padding: 0 16px;
+    }
+
+    .testimonial .brands {
+    }
+
 }
 

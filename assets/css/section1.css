@@ -67,3 +67,18 @@
     padding-right: 15px;
 }
 
+@media screen and (max-width: 991px) {
+    .how-works .container {
+        padding: 0 16px;
+    }
+
+    .how-works .built {
+        flex-direction: column-reverse;
+    }
+
+    .how-works .built img {
+        padding-right: 0;
+    }
+
+}
+

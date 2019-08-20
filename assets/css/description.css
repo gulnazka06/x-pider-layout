@@ -82,3 +82,13 @@
     width: 100%;
     position: relative;
 }
+
+@media screen and (max-width: 991px) {
+    .description .container {
+        padding: 0 16px;
+    }
+
+    .description .container.row img {
+        padding-right: 5px;
+    }
+}

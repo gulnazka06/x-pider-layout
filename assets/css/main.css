@@ -16,6 +16,11 @@
 body {
     background-color: var(--body-background-color);
     font-family: Nunito, -apple-system, sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 a {

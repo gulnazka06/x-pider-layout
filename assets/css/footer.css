@@ -15,6 +15,7 @@ footer img.shape {
 
 .footer-top {
     background-color: var(--body-background-color);
+    padding: 0 16px;
 }
 
 .footer-top .container {
@@ -50,7 +51,7 @@ footer img.shape {
 
 .footer-bottom {
     background-color: var(--bottom-bg-color);
-    padding: 25px 0;
+    padding: 25px 16px;
     position: relative;
 }
 
