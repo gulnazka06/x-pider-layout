@@ -13,6 +13,10 @@
     justify-content: center;
 }
 
+.pricing p {
+    text-align: center;
+}
+
 .pricing .card-left, .pricing .card-right {
     display: flex;
     align-items: center;
@@ -45,19 +49,18 @@
     color: var(--white-color);
 }
 
-.pricing .card-left h3 {
+.pricing .card-left h3, .pricing .card-right h3 {
     text-align: center;
-    color: var(--grey-color);
     margin-bottom: 34px;
 }
 
-.pricing .card-right h3 {
-    text-align: center;
-    margin-bottom: 34px;
+.pricing .card-left h3 {
+    color: var(--grey-color);
 }
 
 .pricing .card-left hr, .pricing .card-right hr {
     width: 100%;
+    border-width: 1px 0;
 }
 
 .pricing .card-left hr {
@@ -70,6 +73,7 @@
 
 .pricing .card-left p, .pricing .card-right p {
     padding: 30px 40px 24px;
+    text-align: left;
 }
 
 .pricing .card-left button {

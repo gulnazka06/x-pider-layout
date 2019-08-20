@@ -47,26 +47,8 @@
     padding-left: 50px;
 }
 
-.description ul {
-    list-style: disc;
-}
-
-.description ul li {
-    font-size: 16px;
-    line-height: 28px;
-}
-
-.description p {
-    font-size: 16px;
-    line-height: 28px;
-    font-style: italic;
-}
-
 .description p:last-child {
-    font-size: 16px;
-    line-height: 18px;
     color: var(--white-color);
-    font-style: normal;
 }
 
 .description .content hr {
@@ -76,6 +58,7 @@
 
 .description .img {
     position: relative;
+    margin-bottom: 158px;
 }
 
 .description .dots {
@@ -92,7 +75,7 @@
     height: 33px;
     right: 55px;
     position: absolute;
-    transform: translateY(-40%);
+    transform: translateY(40%);
 }
 
 .description .main {

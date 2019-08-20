@@ -1,11 +1,57 @@
 footer {
     --social-bg-color: #51545E;
     --bottom-bg-color: #151C32;
+    position: relative;
+    overflow: hidden;
+}
+
+footer img.shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: 0;
+}
+
+.footer-top {
+    background-color: var(--body-background-color);
+}
+
+.footer-top .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top .company, .footer-top .product, .footer-top .resource {
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0;
+}
+
+.footer-top ul li {
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+.footer-top img {
+    margin: 145px 331px 335px 0;
+}
+
+.footer-top p {
+    color: var(--white-color);
+    font-size: 18px;
+    line-height: 21px;
+    text-align: start;
+}
+
+.footer-top a {
+    color: var(--grey-color);
 }
 
 .footer-bottom {
     background-color: var(--bottom-bg-color);
     padding: 25px 0;
+    position: relative;
 }
 
 .footer-bottom .container {

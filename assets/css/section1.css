@@ -1,5 +1,6 @@
 .how-works {
     background-color: var(--section-bg-color);
+    padding-bottom: 100px;
 }
 
 .how-works .container {
@@ -54,6 +55,7 @@
 
 .how-works .built a {
     color: var(--button-primary-color);
+    margin-bottom: 182px;
 }
 
 .how-works .built .technologies {
